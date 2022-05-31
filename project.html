@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Project</title>
+</head>
+
+<script>
+            
+    var images = ["web88.jpg","aa.jpeg","letter.jpg"];
+    var i = 0;
+    function mySlider(){
+       document.getElementById('slide').src = images[i];
+       
+       if(i < images.length - 1)
+       {
+           i++;
+       }else{
+           i = 0;
+       }
+       setTimeout("mySlider()",3000);
+    }
+    
+</script>
+
+<body>
+    <div id="head" class="header">
+        <div class="text">
+            <img id="slide" src="" alt="" width="100" height="100">
+            <script>mySlider();</script>
+            <h2>Im a <span class="web">Web</span> developer </h2>
+            <p id="we"></p>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="#contact">Contact Us</a>
+        <a href="#customers">Customers</a>
+        <a href="#project">Project</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About Us</a>
+
+        <p>Abdullah <span class="abosido">AboSido</span></p>
+    </div>
+
+    <div id="about" class="row1">
+        <div class="col1">
+            <h1>About Us</h1>
+            <br>
+            <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes
+                to make a website look great, work fast and perform well with a seamless user experience. ... The field
+                of web development is generally broken down into front-end (the user-facing side) and back-end (the
+                server side).</p>
+        </div>
+        <div class="col2">
+            <img src="web.jpg" alt="web">
+        </div>
+    </div>
+
+    <div id="skills" class="row2">
+        <div class="col1">
+            <h1>My Skills</h1>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut itaque commodi aperiam eius assumenda
+                ex sint obcaecati numquam nam earum tenetur sapiente, temporibus ratione doloremque quas dolorem
+                aspernatur veniam!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque aliquid, sapiente eaque pariatur autem
+                vero reiciendis laboriosam laudantium</p>
+            <br><br>
+            <a class="button" href="mailto: odod41907@gmail.com">Contact Me</a>
+        </div>
+
+        <div class="col2">
+            <div class="container">
+                <div class="HTML">
+                    <p>Html</p>
+                </div>
+                <div class="tape">
+                    <div class="covAni">
+                        <div class="progressHtml" data-done="70"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="tape">
+                    <div class="covAni">
+                        <div class="progressCss" data-done="30"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="JS">
+                    <p>JavaScript</p>
+                </div>
+                <div class="tape">
+                    <div class="covAni">
+                        <div class="progressJS" data-done="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project" class="row3">
+        <div class="pro_text">
+            <h1>Our Projects</h1>
+            <div class="line"></div>
+        </div>
+        <div class="na">
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">JS Codes</div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">JS Projects</div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">HTML Codes</div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">HTML Projects</div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">CSS Codes</div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="web.jpg" alt="Avatar" class="top">
+                <div class="overlay">
+                    <div class="text">CSS Projects</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div id="customers" class="row4">
+        <div class="cus_text">
+            <h1>Our Customers</h1>
+            <div class="line"></div>
+        </div>
+        <div class="container">
+            <div class="col1">
+                <img src="imageedit_1_5290340026.png" alt="">
+                <h2>Abdullah AboSido</h2>
+                <p>Web developer create and maintain websites. Digital designers develop, create, and test website or
+                    interface layout, functions, and navigation for usability .</p>
+            </div>
+            <div class="col2">
+                <img src="imageedit_3_9056358987.png" alt="">
+                <h2>NourAdeen AboSido</h2>
+                <p>Web developer create and maintain websites. Digital designers develop, create, and test website or
+                    interface layout, functions, and navigation for usability .</p>
+            </div>
+            <div class="col3">
+                <img src="imageedit_5_9414743807.png" alt="">
+                <h2>Mohammed AboSido</h2>
+                <p>Web developer create and maintain websites. Digital designers develop, create, and test website or
+                    interface layout, functions, and navigation for usability .</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contact" class="row5">
+        <div class="con_text">
+            <h1>Contact Us</h1>
+            <div class="line"></div>
+        </div>
+        <div class="form">
+            <div class="col1">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="number" name="phone" placeholder="Your Phone">
+                <input type="text" name="sub" placeholder="Your Subject">
+                <button type="submit">Contact Me</button>
+            </div>
+            <div class="col2">
+                <textarea name="text box" cols="45" rows="10" placeholder="Your Message.."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <p>Copyright &copy; 2021 Eng: Abdullah AboSido</p>
+            <img src="Facebook.png">
+            <img src="Google_.png">
+            <img src="LinkedIn.png">
+            <img src="Pinterest.png">
+            <img src="Twitter.png">
+            <img src="YouTube.png">
+        </div>
+        <button class="to-top">Top</button>
+
+    </div>
+
+
+    <script>
+
+        let text = "Back End Developer With Php Laravel".split("");  
+              
+        const timerForText = setInterval(() => {
+            document.getElementById("we").innerHTML += text.shift();
+            if (text.length <= 0) clearInterval(timerForText);
+        }, 80);
+
+    </script>
+
+    <script>
+        setTimeout(() => {
+            const progress = document.querySelector('.progressHtml');
+
+            progress.style.width = progress.getAttribute('data-done') + '%';
+            progress.style.opacity = 1;
+        }, 400)
+
+        setTimeout(() => {
+            const progress = document.querySelector('.progressCss');
+
+            progress.style.width = progress.getAttribute('data-done') + '%';
+            progress.style.opacity = 1;
+        }, 400)
+
+        setTimeout(() => {
+            const progress = document.querySelector('.progressJS');
+
+            progress.style.width = progress.getAttribute('data-done') + '%';
+            progress.style.opacity = 1;
+        }, 400)
+
+        
+
+    </script>
+
+    <script>
+        const scrollBtn = document.querySelector('.to-top');
+
+        const refreshButtonVisibility = () => {
+            if (document.documentElement.scrollTop <= 1200) {
+                scrollBtn.style.display = 'none';
+            } else {
+                scrollBtn.style.display = 'block';
+            }
+        };
+        refreshButtonVisibility();
+
+        scrollBtn.addEventListener('click', () => {
+            document.documentElement.scrollTop = 0;
+        });
+
+        document.addEventListener("scroll", (e) => {
+            refreshButtonVisibility();
+        });
+
+    </script>
+
+</body>
+
+</html>

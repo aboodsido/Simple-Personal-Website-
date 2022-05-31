@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="" content="">
+    <title>Document</title>
+
+    <script src="html.js">
+
+    </script>
+    <style>
+        .con{
+            position: relative;
+        }
+        .con img{
+            width: 300px;
+            height: 250px;
+            z-index: 1;
+        }
+        .color{
+            position: absolute;
+            background-color: orangered;
+            width: 300px;
+            height: 250px;
+            top: 0;
+            opacity: 0;
+        }
+        .color:hover{
+            opacity: 1;
+        }
+        #qq{
+            cursor:copy;
+        }
+        #words{
+            text-shadow: 2px 2px 2px rgb(168, 89, 89);
+        }
+        a:link{
+            color: sandybrown;
+            font-size: larger;
+            font-weight: 200;
+            cursor: pointer;
+        }
+        .oo:hover{
+            background-color: chocolate;
+            border: 2px solid brown;
+            list-style: ;
+            border-color: burlywood red;
+            margin: 10px auto;
+            visibility: visible;
+        }
+        ol{
+            list-style-type: lower-alpha;
+            list-style-image: url('Facebook.png');
+            border-image-width: 1px;
+            position:relative;
+            bottom: ;
+        }
+        
+    </style>
+</head>
+<body>
+
+<script>
+    window.alert("welcome to pubg mobile!");
+</script>
+
+
+    <div class="con">
+        <img src="web.jpg" alt="">
+        <div class="color"></div>
+    </div>
+
+
+
+    <p id="words"></p>
+
+    <script>
+        const text = "HELLO  WEB PROGRAMMING".split("");
+
+        const txt = setInterval(()=>{
+            document.getElementById('words').innerHTML += text.shift();
+
+            if(text.length <= 0){
+                clearInterval(txt)
+            }
+        }, 90)
+
+        document.getElementById("words").style.backgroundColor = "white";
+        document.getElementById("words").style.textShadow = "1px 1px red";
+
+        var cars = new Array();
+        var cars = [];
+        
+        function funName(x) {
+            
+        }
+
+        const t = function (params) {
+            
+        }
+            document.getElementById();
+            document.getElementsByTagName();
+            document.getElementsByClassName();
+
+            
+
+    </script>
+
+    <a id="qq" href="www.facebook.com">Facebook</a>
+    <p>abood <sup>TM</sup></p>
+
+
+    <ol type="i"> ordered list
+        <li><a href="facebook.com">ff</a>
+            <ul type ="square">
+                <li>hi</li>
+                <li>dd</li>
+            </ul>
+        </li>
+        <li><a href="facebook.com">web</a></li>
+        <li><a href="facebook.com">java</a></li>
+        <li><a href="facebook.com">ff</a></li>
+        <li><a href="facebook.com">ff</a></li>
+    </ol>
+    <form method="" action="">
+        <Fieldset>
+            <LEgend>HI</LEgend>
+            <input type="radio" name="option" value="hi" checked = "checked">
+            <input type="checkbox" name="" id="">hi
+        
+            <select name="select" id="" multiple size="4">
+                <option value="" selected>eeeeeeeeeeee</option>
+                <option value="" selected>ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+                <option value="" >ddddddddddddddd</option>
+        
+            </select>
+    
+            <input class="oo" type="submit" name="ss" value="ww">
+            <input type="image" src="" alt="">
+        </Fieldset>
+        <!--CCOOMMMMMMMMEENNTT-->
+
+        <button><img src="Linkedln.png" alt=""></button>
+    </form>
+    
+    
+</body>
+</html>
